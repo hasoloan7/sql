@@ -1,3 +1,4 @@
+show databases
 use ALias
 show tables
 SELECT*from persons;
@@ -33,3 +34,20 @@ INSERT INTO persons Values
 (29, 'Parkut Green', 'parkut@example.com', '258369147', 'Female', '789 Mango Avenue, Village'), 
 (30, 'King', 'king@example.com', '852369741', 'Male', '789 Pineapple Road, Municipality');
 SELECT name AS "Nama", phone AS "Nomor_Handphone", address AS "Alamat_tinggal" FROM persons ;
+show engines
+CREATE table akulaku(
+)
+describe persons 
+ALTER table persons 
+add column type varchar(100);
+ALTER table persons 
+show create table persons
+alter table persons 
+drop column type
+select*FROM persons
+show create table persons 
+ALTER table persons 
+modify phone varchar(255) after address
+
+
+
