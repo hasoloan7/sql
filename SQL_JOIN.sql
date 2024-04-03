@@ -44,12 +44,10 @@ INSERT INTO Users values (2, "silalahi@gmail.com", "silalahi", "hahha", "jl.kaki
 (3, "hasoloan@gmail.com", "hasoloan", "hahha", "jl.ditempat", "Dev", "pass", now(), now()),
 (4, "parkut@gmail.com", "parkut", "hahha", "jl.kaki", "Frontand", "pass", now(), now());
 
-INSERT INTO product  values (1, 123, 123, "code123", "pare", "product_pare", "haha", "image_1", 1, "1 unit", 1000, "pass");
 INSERT INTO product  values (1, 123, 123, "code123", "pare", "product_pare", "haha", "image_1", 1, "1 unit", 1000, "pass"), (2, 213, 213, "code213", "silalahi", "product_silalahi", "haha", "image_2", 1, "1 unit", 1000, "pass"),
 (3, 312, 312, "code312", "hasoloan", "product_hasoloan", "haha", "image_3", 1, "1 unit", 1000, "pass"),
 (4, 113, 113, "code113", "parkut", "product_parkut", "haha", "image_4", 1, "1 unit", 1000, "pass")
-
-select*FROM categoris 
+ 
 INSERT INTO categoris values (1, 123, "code123", "pare", "product_pare", "hihi", "pass", "image_1");
 INSERT INTO categoris values (2, 213, "code213", "silalahi", "product_silalahi", "hihi", "pass", "image_2"),
 (3, 312, "code312", "hasoloan", "product_hasoloan", "hihi", "pass", "image_3"),
